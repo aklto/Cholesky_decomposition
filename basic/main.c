@@ -9,7 +9,7 @@ void free_matrix(float **matrix, int rows);
 void print_matrix(float **matrix, int rows, int cols);
 
 int main() {
-    FILE *file = fopen("matrix.txt", "r");
+    FILE *file = fopen("files/matrix.txt", "r");
     if (file == NULL) {
         perror("Файл не найден");
         return 1;
