@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../functions/chol_decomp.h"
+#include "functions/chol_decomp.h"
+#include "tests/chol_decomp_test.h"
 
 #define MAX_SIZE 100
 
@@ -9,6 +10,7 @@ void free_matrix(float **matrix, int rows);
 void print_matrix(float **matrix, int rows, int cols);
 
 int main() {
+    run_tests();
     FILE *file = fopen("files/matrix.txt", "r");
     if (file == NULL) {
         perror("Файл не найден");

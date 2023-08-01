@@ -7,7 +7,7 @@
 ## Структура проекта
 
 /Cholesky_decomposition
-/basic
+/basic 
 - main.c
 /functions
 - chol_decomp.c

@@ -3,4 +3,4 @@
 
 void chol_decomp(float **A, float **L, int n);
 
-#endif
+#endif //CHOL_DECOMP_H
